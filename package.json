@@ -1,6 +1,6 @@
 {
   "name": "@richard432/fs-sync",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js fs-compatible filesystem with local caching and pluggable bidirectional sync (WebDAV/GitHub/Gitee/RemoteStorage).",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
