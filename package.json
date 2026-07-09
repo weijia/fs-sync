@@ -1,6 +1,6 @@
 {
   "name": "@weijia/fs-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js fs-compatible filesystem with local caching and pluggable bidirectional sync (WebDAV/GitHub/Gitee/RemoteStorage).",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +12,11 @@
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
@@ -20,7 +24,14 @@
     "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["fs", "filesystem", "sync", "webdav", "indexeddb", "offline"],
+  "keywords": [
+    "fs",
+    "filesystem",
+    "sync",
+    "webdav",
+    "indexeddb",
+    "offline"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18"
