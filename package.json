@@ -1,5 +1,5 @@
 {
-  "name": "fs-sync",
+  "name": "@weijia/fs-sync",
   "version": "0.1.0",
   "description": "Node.js fs-compatible filesystem with local caching and pluggable bidirectional sync (WebDAV/GitHub/Gitee/RemoteStorage).",
   "main": "./dist/index.js",
